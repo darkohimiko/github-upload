@@ -1,0 +1,22 @@
+#progess_div {
+/* 	background:#000; */
+/*    height: 100px; */
+/*    width: 100px; */
+   position: absolute;
+   z-index: 1000;
+   left: 50%;
+   top: 50%;
+   margin: -25px 0 0 -25px;
+   color: white;
+}
+
+#load_screen_div {
+   background:#000 ;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   display : block;
+   z-index: 1001;
+   left: 0;
+   top: 0;
+}

@@ -1,0 +1,448 @@
+body{ 
+margin:0; 
+padding:0; 
+background-color:#eeece4;
+
+} 
+
+.bg { 
+margin:0; 
+padding:0; 
+background-image:url(../images/bg.jpg); 
+background-repeat:repeat-x;
+background-color:#4498b6;
+}
+
+#body_detail
+{
+background-color: #efece5; /*defauLT*/
+}
+/*---------------------------------- link ------------------------------------------------*/
+
+A:link , A:visited , A:active
+{
+	color: #000000;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:13px;
+	font-weight:normal;	
+}
+
+A:hover
+{
+	color: #386096;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:13px;
+	font-weight:normal;	
+}
+
+.nav_01:link , .nav_01:visited , .nav_01:active
+{
+	color: white;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:11px;
+	font-weight:bold;	
+}
+
+#nav_01:hover
+{
+	color: #ffffcc;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-weight:bold;	
+}
+
+
+.menu:link , .menu:visited , .menu:active
+{
+	color: white;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:12px;
+}
+
+.menu:hover
+{
+	color: #ffe684;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:12px;
+}
+
+
+.hdmenu:link , .hdmenu:visited , .hdmenu:active
+{
+	color: white;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:12px;
+	font-weight:bold;
+}
+
+.hdmenu:hover
+{
+	color: #ffe684;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:12px;
+	font-weight:bold;
+}
+
+#a_admin:link , #a_admin:visited , #a_admin:active
+{
+	color: white;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:12px;
+	font-weight:bold;
+}
+
+#a_admin:hover
+{
+	color: #ffe684;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:12px;
+	font-weight:bold;
+}
+
+/*---------------------------------- Input_box ------------------------------------------------*/
+
+
+.input_pw, .input_box, .input_box_disable, .input_box_active, .input_box_tootip
+{
+	font-family:tahoma;
+	font-size:12px;
+	color: #612d75;
+	background-color:#d6bfd6;
+	border: 1px solid #bdafc3;
+}
+
+ .input_box
+{
+	color: #612d75;
+	background-color:white;
+}
+
+ .input_box_multi
+{
+	font-size:12px;
+	color: #612d75;
+	background-color:white;
+	border: 1px solid #c4c4c2;
+	font-family:tahoma;
+	font-size:12px;
+}
+
+
+.input_box_disable
+{
+	color: #82815a;
+	background-color:#e2e2de;
+	border: 1px solid #c4c4c2;
+}
+
+.input_box_tootip
+{
+	color: #845f2f;
+	background-color:#fdfdeb;
+	border: 1px solid #fff4b6;
+	width: 180px;
+	padding-left: 5px;
+}
+
+.input_box_active
+{
+	color: #4d6fa8;
+	background-color:#f0dcad;
+	border: 1px solid #acb1a6;
+}
+
+
+.combobox
+{
+	font-family:"tahoma";
+	font-weight:normal;
+	font-size:12px;
+	color: #4d6fa8;
+	background-color:#f5f4d8;
+	border: 1px solid #bdafc3;
+
+}
+
+/*---------------------------------- text ����� ------------------------------------------------*/
+
+.navbar_01, .navbar_02
+{
+	font-size: 12px;
+/* 	height:20px; */
+	font-family:tahoma;
+	color: white;
+	font-weight: bold;
+}
+
+
+.navbar_02
+{
+	color: #c1fdff;
+}
+
+#leftmenu
+{
+	font-size: 12px;
+	font-family:tahoma;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.label_header01
+{
+	font-size: 14px;
+	font-family:tahoma;
+	color: #22495c;
+	font-weight: bold;
+}
+
+
+.label_header02
+{
+	font-size: 14px;
+	font-family:tahoma;
+	color: white;
+	font-weight: bold;
+}
+
+
+.label_normal1, .label_normal2, .label_normal3, .label_normal4, .mark
+{
+	font-size: 12px;
+	font-family:tahoma;
+	color: #FFFFFF;  /*�բ��*/
+	font-style: normal;
+	line-height: 180%;
+}
+
+.label_normal2
+{
+	color: #362839; /* ���� */
+}
+
+.label_normal3
+{
+	color: #4d66c2; /* �չ���Թ */
+
+}
+
+.label_normal4
+{
+	color: #693b13; /* �չ�ӵ�� */
+}
+
+.mark
+{
+	color: red;
+}
+
+/* ����Ѻ label ���˹� */
+.label_bold1, .label_bold2, .label_bold3, .label_bold4, .label_bold5
+{
+	font-size: 12px;
+	color: #FFFFFF; /* �բ��*/
+	font-weight: bold; 
+	font-family:tahoma;
+	line-height: 200%;
+
+}
+
+.label_bold2
+{
+	color: #5f5745; /* ����*/
+}
+
+.label_bold3
+{
+	color: #4d66c2; /* �չ���Թ */
+}
+
+.label_bold4
+{
+	color: #693b13; /* �չ�ӵ��*/
+}
+
+.label_bold5
+{
+	color: #baeeeb; /*�տ��*/
+}
+
+
+#copyright
+{
+	font-size: 11px;
+	font-family:tahoma;
+	color: white; 
+}
+
+#bg_detail
+{
+    background-repeat: repeat-y;
+	background-image: url(../images/bg_detail.jpg);
+}
+
+
+#bg_leftmenu
+{
+   background-color:#81528a; /*defauLT*/
+   	font-size: 12px;
+	font-family:tahoma;
+	color: #FFFFFF;  /*�բ��*/
+	font-style: normal;
+}
+
+#bg_allmenu
+{
+	background-color:#4f9fc1; /*defauLT*/
+}
+
+ ul { list-style-type: none;  }
+ ol { list-style-image: url("../images/bullet_org.gif");
+     margin-left: 0px;
+     margin-right: 2%; 
+     margin-top: .5em;
+     margin-bottom: .5em;
+     vertical-align:bottom;
+     padding-left: 30px;
+ }
+
+
+
+/* Table data */
+
+
+.hd_table,.footer_table
+{
+    font-size: 12px;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    font-family: tahoma;
+    background-repeat: repeat-x;
+}
+
+.hd_table
+{
+    color: white;
+    background-image: url(../images/hd_tb_02.gif);
+    background-color: #66a5ba;
+}
+
+.footer_table
+{
+  color: #147a9c;
+  height:25px;
+  background-image: url(../images/footertb.gif);
+  background-color:#ffffff;
+}
+
+
+.table_data1, .table_data2, .table_data_mover
+{
+	font-size: 12px;
+	color: #000000;
+	font-style: normal;
+	font-family: "tahoma";
+	line-height: 160%;
+	background-color:#FFFFFF;
+}
+
+.table_data2
+{
+	/*border: 1px solid #FFFFFF;*/
+    background-color:#f9eac7;
+}
+.table_data_mover
+{
+	font-weight: bold; 
+	cursor:pointer;
+	font-family: "tahoma";
+	background-color:#e2e9c8;
+}
+
+.roundcont {
+	width: 96%;
+	background-color: #f9f8ee;
+	color: #000;
+}
+
+.roundcont p {
+	margin: 0 10px;
+}
+
+.roundtop { 
+	background: url(../images/tr.gif) no-repeat top right; 
+}
+
+.roundbottom {
+	background: url(../images/br.gif) no-repeat top right; 
+}
+
+img.corner {
+   width: 6px;
+   height: 6px;
+   border: none;
+   display: block !important;
+}
+
+.news_link A:link , .news_link A:visited , .news_link A:active{
+	
+	font:bold 12px/22px Tahoma;
+	background-image:url(../images/bullet.jpg);
+	height:16px;
+	background-repeat:no-repeat;
+	padding-left:30px;
+	color: #6d6c6c;	
+	text-decoration: none;
+
+}
+
+.news_link A:hover{
+	background-image:url(../images/bullet.jpg);
+	background-repeat:no-repeat;
+	padding-left:30px;
+	color: #9b268c;	
+	text-decoration: none;
+	font-family: "Tahoma";
+	font-size:12px;
+	font-weight:bold;
+}
+
+.news_header
+{
+	font:bold 14px/22px Tahoma;
+	color: #874296;
+}
+
+#news_date{
+	font:normal 12px/22px Tahoma;
+	color: #8f5c03;	
+	text-decoration: none;
+	padding-top:30px;
+	text-align:right;
+}
+
+#sub { list-style-image: url("../images/arrow.gif");
+ margin-left: 50px;
+ margin-right: 2%; 
+ margin-top: .5em;
+ margin-bottom: .5em;
+ vertical-align:bottom;}
+
+#content{	
+	margin-right:25px;
+	margin-left:25px;
+}
+
+table#content td{
+	height:30px;
+}
